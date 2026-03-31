@@ -6,3 +6,7 @@ It is provided only to clarify reproducibility details and does not constitute a
 
 ## To run the main training loop run:
 python main_loop.py
+
+## Following training and saving of the .pt checkpoint weights
+Configure compile_eval_packed.py accordingly and run it by:
+python compile_eval_packed.py
