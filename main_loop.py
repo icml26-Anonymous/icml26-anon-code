@@ -527,7 +527,7 @@ if __name__ == "__main__":
                                                         overlap = gate_overlap_matrix(model, k_frac=k, hard=True)
                                                         # 6) Finally, save to logfile
                                                         save_experiment_log(
-                                                            log_file="training_logs/posticlr/" + f"{dataset}/{architecture}/seed{seed}_kur{kappa_update_rate}_" + file_name + ".txt",
+                                                            log_file="training_logs/" + f"{dataset}/{architecture}/seed{seed}_kur{kappa_update_rate}_" + file_name + ".txt",
                                                             seed=seed,
                                                             dataset=dataset,
                                                             architecture=architecture,
